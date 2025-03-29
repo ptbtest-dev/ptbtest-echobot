@@ -20,6 +20,7 @@ classifiers = [
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: Implementation :: CPython",
 ]
 dependencies = [
@@ -40,6 +41,9 @@ path = "__about__.py"
 extra-dependencies = [
   "mypy>=1.0.0",
 ]
+
+[tool.hatch.envs.lint]
+skip-install = true
 
 [tool.hatch.metadata]
 allow-direct-references = true

@@ -10,7 +10,7 @@ from ptbtest import MessageGenerator
 from ptbtest import Mockbot
 from ptbtest import UserGenerator
 
-import echobot
+from ptbtest_echobot import echobot
 
 
 class TestEchobot(unittest.TestCase):
